@@ -1,0 +1,67 @@
+body{
+    margin: 0%;
+    
+}
+section{ 
+    height: 500px;
+    padding-bottom: 200px;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    size: 300px;
+}
+.love-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.orange-highlight{
+    color:orange ;
+}
+h1{
+    font-size: 80px;
+}
+p{
+    color: dimgray;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon,red);
+    border-radius: 7px;
+    color: white;
+    font-size: 700;
+    padding: 11px 16px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img {
+    width: 100%;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 7px;
+    height: 300px;    
+}
+.experiences-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;}
+#full-stack{
+    border-left: 7px solid;
+    border-image:  linear-gradient(180deg ,blue,cyan);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    color: dimgray;
+}
